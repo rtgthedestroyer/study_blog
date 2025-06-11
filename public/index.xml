@@ -1,26 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>My New Hugo Site</title>
-    <link>http://localhost:33597/</link>
-    <description>Recent content on My New Hugo Site</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 11 Jun 2025 13:09:28 +0300</lastBuildDate>
-    <atom:link href="http://localhost:33597/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Aboutme</title>
-      <link>http://localhost:33597/aboutme/aboutme/</link>
-      <pubDate>Wed, 11 Jun 2025 13:09:28 +0300</pubDate>
-      <guid>http://localhost:33597/aboutme/aboutme/</guid>
-      <description>&lt;p&gt;Nice to meet you !&#xA;I am a Computer Science student with an interest in cybersecurity,&#xA;Especially low-level security , i have practical knowledge in reverse-engineering,&#xA;debuggers, vulnerabilities, and malware.&lt;/p&gt;&#xA;&lt;p&gt;This is my personal blog where i will upload ctf solutions and other things that&#xA;pique my interest.&lt;/p&gt;&#xA;&lt;p&gt;Hope you have a great time - rtg.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Fd_ctf</title>
-      <link>http://localhost:33597/fd_ctf/</link>
-      <pubDate>Tue, 10 Jun 2025 21:05:17 +0300</pubDate>
-      <guid>http://localhost:33597/fd_ctf/</guid>
-      <description>&lt;p&gt;this is how i solved the fd challenge on pwnable.kr&lt;/p&gt;&#xA;&lt;p&gt;char buf[32];&#xA;int main(int argc, char* argv[], char* envp[]){&#xA;if(argc&amp;lt;2){&#xA;printf(&amp;ldquo;pass argv[1] a number\n&amp;rdquo;);&#xA;return 0;&#xA;}&#xA;int fd = atoi( argv[1] ) - 0x1234;&#xA;int len = 0;&#xA;len = read(fd, buf, 32);&#xA;if(!strcmp(&amp;ldquo;LETMEWIN\n&amp;rdquo;, buf)){&#xA;printf(&amp;ldquo;good job :)\n&amp;rdquo;);&#xA;setregid(getegid(), getegid());&#xA;system(&amp;quot;/bin/cat flag&amp;quot;);&#xA;exit(0);&#xA;}&#xA;printf(&amp;ldquo;learn about Linux file IO\n&amp;rdquo;);&#xA;return 0;&lt;/p&gt;&#xA;&lt;p&gt;}&lt;/p&gt;&#xA;&lt;p&gt;above is the code that we were given, we can notice that the theme is aboud linux file&#xA;descriptors , 0 for input , 1 for output, 2 for errors, the trick here is to convince&#xA;the file descriptor to be 0 so we can input the passkey LETMEWIN&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My New Hugo Site</title><link>https://rtgthedestroyer.github.io/pwn-blog/</link><description>Recent content on My New Hugo Site</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 10 Jun 2025 21:05:17 +0300</lastBuildDate><atom:link href="https://rtgthedestroyer.github.io/pwn-blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Fd_ctf</title><link>https://rtgthedestroyer.github.io/pwn-blog/fd_ctf/</link><pubDate>Tue, 10 Jun 2025 21:05:17 +0300</pubDate><guid>https://rtgthedestroyer.github.io/pwn-blog/fd_ctf/</guid><description>&lt;p>this is how i solved the fd challenge on pwnable.kr&lt;/p>
+&lt;p>char buf[32];
+int main(int argc, char* argv[], char* envp[]){
+if(argc&amp;lt;2){
+printf(&amp;ldquo;pass argv[1] a number\n&amp;rdquo;);
+return 0;
+}
+int fd = atoi( argv[1] ) - 0x1234;
+int len = 0;
+len = read(fd, buf, 32);
+if(!strcmp(&amp;ldquo;LETMEWIN\n&amp;rdquo;, buf)){
+printf(&amp;ldquo;good job :)\n&amp;rdquo;);
+setregid(getegid(), getegid());
+system(&amp;quot;/bin/cat flag&amp;quot;);
+exit(0);
+}
+printf(&amp;ldquo;learn about Linux file IO\n&amp;rdquo;);
+return 0;&lt;/p>
+&lt;p>}&lt;/p>
+&lt;p>above is the code that we were given, we can notice that the theme is aboud linux file
+descriptors , 0 for input , 1 for output, 2 for errors, the trick here is to convince
+the file descriptor to be 0 so we can input the passkey LETMEWIN&lt;/p></description></item></channel></rss>

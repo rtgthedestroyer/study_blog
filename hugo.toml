@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://rtgthedestroyer.github.io/pwn-blog/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'hugo-theme-terminal'
@@ -8,20 +8,19 @@ theme = 'hugo-theme-terminal'
 
 
 [menu]
-
 [[menu.main]]
 	name = 'whoami'
-	pageRef = '/content/aboutme/'
+	pageRef = '/aboutme/'
 	weight = 1
 
 
 [[menu.main]]
 	name = 'Blog'
-	pageRef = '/content/posts/'
+	pageRef = '/posts/'
 	weight = 2
 
 
 [[menu.main]]
 	name = 'Projects/CTFs'
-	pageRef = '/content/ctfs/'
+	pageRef = '/ctfs/'
 	weight = 3
