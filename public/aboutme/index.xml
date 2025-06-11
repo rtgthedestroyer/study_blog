@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aboutmes on My New Hugo Site</title>
+    <link>http://localhost:33597/aboutme/</link>
+    <description>Recent content in Aboutmes on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Jun 2025 13:09:28 +0300</lastBuildDate>
+    <atom:link href="http://localhost:33597/aboutme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aboutme</title>
+      <link>http://localhost:33597/aboutme/aboutme/</link>
+      <pubDate>Wed, 11 Jun 2025 13:09:28 +0300</pubDate>
+      <guid>http://localhost:33597/aboutme/aboutme/</guid>
+      <description>&lt;p&gt;Nice to meet you !&#xA;I am a Computer Science student with an interest in cybersecurity,&#xA;Especially low-level security , i have practical knowledge in reverse-engineering,&#xA;debuggers, vulnerabilities, and malware.&lt;/p&gt;&#xA;&lt;p&gt;This is my personal blog where i will upload ctf solutions and other things that&#xA;pique my interest.&lt;/p&gt;&#xA;&lt;p&gt;Hope you have a great time - rtg.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

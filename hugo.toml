@@ -5,3 +5,23 @@ theme = 'hugo-theme-terminal'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+
+[menu]
+
+[[menu.main]]
+	name = 'whoami'
+	pageRef = '/content/aboutme/'
+	weight = 1
+
+
+[[menu.main]]
+	name = 'Blog'
+	pageRef = '/content/posts/'
+	weight = 2
+
+
+[[menu.main]]
+	name = 'Projects/CTFs'
+	pageRef = '/content/ctfs/'
+	weight = 3
