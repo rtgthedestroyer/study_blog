@@ -1,6 +1,5 @@
 +++
 date = '2025-06-10T21:05:17+03:00'
-draft = true
 title = 'Fd_ctf'
 +++
 

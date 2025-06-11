@@ -1,1 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://example.org/</loc><lastmod>2025-06-10T21:05:17+03:00</lastmod></url><url><loc>https://example.org/posts/</loc><lastmod>2025-06-10T13:35:46+03:00</lastmod></url><url><loc>https://example.org/categories/</loc></url><url><loc>https://example.org/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:46471/</loc>
+    <lastmod>2025-06-11T12:52:56+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46471/fd_ctf/</loc>
+    <lastmod>2025-06-10T21:05:17+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46471/posts/</loc>
+    <lastmod>2025-06-10T13:35:46+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46471/categories/</loc>
+  </url><url>
+    <loc>http://localhost:46471/tags/</loc>
+  </url>
+</urlset>

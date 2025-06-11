@@ -2,16 +2,20 @@
 <html lang="en">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=46471&amp;path=livereload" data-no-instant defer></script>
   
-    <title>Posts :: My New Hugo Site</title>
+    <title>Fd_ctf :: My New Hugo Site</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="" />
+<meta name="description" content="this is how i solved the fd challenge on pwnable.kr
+char buf[32]; int main(int argc, char* argv[], char* envp[]){ if(argc&lt;2){ printf(&ldquo;pass argv[1] a number\n&rdquo;); return 0; } int fd = atoi( argv[1] ) - 0x1234; int len = 0; len = read(fd, buf, 32); if(!strcmp(&ldquo;LETMEWIN\n&rdquo;, buf)){ printf(&ldquo;good job :)\n&rdquo;); setregid(getegid(), getegid()); system(&quot;/bin/cat flag&quot;); exit(0); } printf(&ldquo;learn about Linux file IO\n&rdquo;); return 0;
+}
+above is the code that we were given, we can notice that the theme is aboud linux file descriptors , 0 for input , 1 for output, 2 for errors, the trick here is to convince the file descriptor to be 0 so we can input the passkey LETMEWIN
+" />
 <meta name="keywords" content="" />
 
   <meta name="robots" content="noodp" />
 
-<link rel="canonical" href="http://localhost:46471/posts/" />
+<link rel="canonical" href="http://localhost:46471/fd_ctf/" />
 
 
 
@@ -71,10 +75,14 @@
 
 
 <meta property="og:locale" content="en" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Posts">
-<meta property="og:description" content="" />
-<meta property="og:url" content="http://localhost:46471/posts/" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Fd_ctf">
+<meta property="og:description" content="this is how i solved the fd challenge on pwnable.kr
+char buf[32]; int main(int argc, char* argv[], char* envp[]){ if(argc&lt;2){ printf(&ldquo;pass argv[1] a number\n&rdquo;); return 0; } int fd = atoi( argv[1] ) - 0x1234; int len = 0; len = read(fd, buf, 32); if(!strcmp(&ldquo;LETMEWIN\n&rdquo;, buf)){ printf(&ldquo;good job :)\n&rdquo;); setregid(getegid(), getegid()); system(&quot;/bin/cat flag&quot;); exit(0); } printf(&ldquo;learn about Linux file IO\n&rdquo;); return 0;
+}
+above is the code that we were given, we can notice that the theme is aboud linux file descriptors , 0 for input , 1 for output, 2 for errors, the trick here is to convince the file descriptor to be 0 so we can input the passkey LETMEWIN
+" />
+<meta property="og:url" content="http://localhost:46471/fd_ctf/" />
 <meta property="og:site_name" content="My New Hugo Site" />
 
   <meta property="og:image" content="http://localhost:46471/og-image.png">
@@ -83,10 +91,10 @@
 <meta property="og:image:height" content="627">
 
 
+  <meta property="article:published_time" content="2025-06-10 21:05:17 &#43;0300 IDT" />
 
 
 
-  <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
 
 
 
@@ -121,19 +129,61 @@
 
   <div class="content">
     
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:46471/fd_ctf/">Fd_ctf</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2025-06-10</time></div>
+
   
-  <div class="posts">
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>this is how i solved the fd challenge on pwnable.kr</p>
+<p>char buf[32];
+int main(int argc, char* argv[], char* envp[]){
+if(argc&lt;2){
+printf(&ldquo;pass argv[1] a number\n&rdquo;);
+return 0;
+}
+int fd = atoi( argv[1] ) - 0x1234;
+int len = 0;
+len = read(fd, buf, 32);
+if(!strcmp(&ldquo;LETMEWIN\n&rdquo;, buf)){
+printf(&ldquo;good job :)\n&rdquo;);
+setregid(getegid(), getegid());
+system(&quot;/bin/cat flag&quot;);
+exit(0);
+}
+printf(&ldquo;learn about Linux file IO\n&rdquo;);
+return 0;</p>
+<p>}</p>
+<p>above is the code that we were given, we can notice that the theme is aboud linux file
+descriptors , 0 for input , 1 for output, 2 for errors, the trick here is to convince
+the file descriptor to be 0 so we can input the passkey LETMEWIN</p>
+<p>inorder to acoomplish that, notice &ldquo;fd = atoi(argv[1])-0x1234;
+atoi(argv[1]) must be equal to 0x1234, atoi converts a string to a decimal,
+so our inputs would be converted to a decimal number, 0x1234 is equal to 4660.
+the input must be equal to 4660.</p>
+<p>using pwntools i crafted the following payload:</p>
+<p>from pwn import *</p>
+<p>p = process([&rsquo;./fd&rsquo;, &lsquo;4660&rsquo;])
+p.send(b&rsquo;LETMEWIN\n&rsquo;)
+print(p.recvall().decode())</p>
+<p>which then i receieved the flag.</p>
+
+      </div></div>
+
+  
+
+  
     
 
-    <div class="pagination">
-  <div class="pagination__buttons">
-    
-    
-    
-  </div>
-</div>
-
-  </div>
+  
+</article>
 
   </div>
 
