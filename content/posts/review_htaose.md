@@ -1,14 +1,14 @@
 +++
 date = '2025-06-14T18:25:29+03:00'
-title = 'Hacking - The Art Of Software Exploitation'
+title = 'Hacking - The Art Of Exploitation'
 +++
 
-#The art of software exploitation - my review
+# The art of exploitation - my review
 
 As a computer science student i always try different areas to see what sticks to me and makes me passionate
-about it, this book is how it all started for me, it may be dated but to me it felt like a "zero to hero",
+about it, this book is how it all started for me, it may be dated released over a decade ago,  but to me it felt like a "zero to hero" manual
 in the world of binary exploitation and vulnerabilty research, it covers the basics, the theory, like nothing
-other i saw online, although it may be a bit dry, but a little bit of persistence goes a long way,
+other source i saw online, although it may be a bit dry, but a little bit of persistence goes a long way,
 anyways, lets start with what you actually learn.
 
 ## Prequisites
@@ -25,7 +25,7 @@ having the following skills  will help you power through this book with little t
 4. code injection and shellcoding
 5. basic networking and cryptography
 
-##final verdict
+## final verdict
 Since its a very old book i recommend supplementing it with more modern resources such as LiveOverflow's series on binexp
 and solving CTFs related to pwn and reversing (pwnable.kr, pwncollege .. ).
 
