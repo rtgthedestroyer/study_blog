@@ -1,22 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Menu on pwn-blog</title><link>https://rtgthedestroyer.github.io/pwn-blog/</link><description>Recent content in Menu on pwn-blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 10 Jun 2025 21:05:17 +0300</lastBuildDate><atom:link href="https://rtgthedestroyer.github.io/pwn-blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Fd_ctf</title><link>https://rtgthedestroyer.github.io/pwn-blog/fd_ctf/</link><pubDate>Tue, 10 Jun 2025 21:05:17 +0300</pubDate><guid>https://rtgthedestroyer.github.io/pwn-blog/fd_ctf/</guid><description>&lt;p>this is how i solved the fd challenge on pwnable.kr&lt;/p>
-&lt;p>char buf[32];
-int main(int argc, char* argv[], char* envp[]){
-if(argc&amp;lt;2){
-printf(&amp;ldquo;pass argv[1] a number\n&amp;rdquo;);
-return 0;
-}
-int fd = atoi( argv[1] ) - 0x1234;
-int len = 0;
-len = read(fd, buf, 32);
-if(!strcmp(&amp;ldquo;LETMEWIN\n&amp;rdquo;, buf)){
-printf(&amp;ldquo;good job :)\n&amp;rdquo;);
-setregid(getegid(), getegid());
-system(&amp;quot;/bin/cat flag&amp;quot;);
-exit(0);
-}
-printf(&amp;ldquo;learn about Linux file IO\n&amp;rdquo;);
-return 0;&lt;/p>
-&lt;p>}&lt;/p>
-&lt;p>above is the code that we were given, we can notice that the theme is aboud linux file
-descriptors , 0 for input , 1 for output, 2 for errors, the trick here is to convince
-the file descriptor to be 0 so we can input the passkey LETMEWIN&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Menu on study_blog</title>
+    <link>http://localhost:1313/study_blog/</link>
+    <description>Recent content in Menu on study_blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Jun 2025 18:25:29 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/study_blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hacking - The Art Of Exploitation</title>
+      <link>http://localhost:1313/study_blog/posts/review_htaose/</link>
+      <pubDate>Sat, 14 Jun 2025 18:25:29 +0300</pubDate>
+      <guid>http://localhost:1313/study_blog/posts/review_htaose/</guid>
+      <description>&lt;h1 id=&#34;the-art-of-exploitation---my-review&#34;&gt;The art of exploitation - my review&lt;/h1&gt;&#xA;&lt;p&gt;As a computer science student i always try different areas to see what sticks to me and makes me passionate&#xA;about it, this book is how it all started for me, it may be dated released over a decade ago,  but to me it felt like a &amp;ldquo;zero to hero&amp;rdquo; manual&#xA;in the world of binary exploitation and vulnerabilty research, it covers the basics, the theory, like nothing&#xA;other source i saw online, although it may be a bit dry, but a little bit of persistence goes a long way,&#xA;anyways, lets start with what you actually learn.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fd_ctf</title>
+      <link>http://localhost:1313/study_blog/fd_ctf/</link>
+      <pubDate>Tue, 10 Jun 2025 21:05:17 +0300</pubDate>
+      <guid>http://localhost:1313/study_blog/fd_ctf/</guid>
+      <description>&lt;p&gt;this is how i solved the fd challenge on pwnable.kr&lt;/p&gt;&#xA;&lt;p&gt;char buf[32];&#xA;int main(int argc, char* argv[], char* envp[]){&#xA;if(argc&amp;lt;2){&#xA;printf(&amp;ldquo;pass argv[1] a number\n&amp;rdquo;);&#xA;return 0;&#xA;}&#xA;int fd = atoi( argv[1] ) - 0x1234;&#xA;int len = 0;&#xA;len = read(fd, buf, 32);&#xA;if(!strcmp(&amp;ldquo;LETMEWIN\n&amp;rdquo;, buf)){&#xA;printf(&amp;ldquo;good job :)\n&amp;rdquo;);&#xA;setregid(getegid(), getegid());&#xA;system(&amp;quot;/bin/cat flag&amp;quot;);&#xA;exit(0);&#xA;}&#xA;printf(&amp;ldquo;learn about Linux file IO\n&amp;rdquo;);&#xA;return 0;&lt;/p&gt;&#xA;&lt;p&gt;}&lt;/p&gt;&#xA;&lt;p&gt;above is the code that we were given, we can notice that the theme is aboud linux file&#xA;descriptors , 0 for input , 1 for output, 2 for errors, the trick here is to convince&#xA;the file descriptor to be 0 so we can input the passkey LETMEWIN&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

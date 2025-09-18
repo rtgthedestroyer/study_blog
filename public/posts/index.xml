@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on pwn-blog</title><link>https://rtgthedestroyer.github.io/pwn-blog/posts/</link><description>Recent content in Blog on pwn-blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate/><atom:link href="https://rtgthedestroyer.github.io/pwn-blog/posts/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on study_blog</title>
+    <link>http://localhost:1313/study_blog/posts/</link>
+    <description>Recent content in Blog on study_blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Jun 2025 18:25:29 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/study_blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hacking - The Art Of Exploitation</title>
+      <link>http://localhost:1313/study_blog/posts/review_htaose/</link>
+      <pubDate>Sat, 14 Jun 2025 18:25:29 +0300</pubDate>
+      <guid>http://localhost:1313/study_blog/posts/review_htaose/</guid>
+      <description>&lt;h1 id=&#34;the-art-of-exploitation---my-review&#34;&gt;The art of exploitation - my review&lt;/h1&gt;&#xA;&lt;p&gt;As a computer science student i always try different areas to see what sticks to me and makes me passionate&#xA;about it, this book is how it all started for me, it may be dated released over a decade ago,  but to me it felt like a &amp;ldquo;zero to hero&amp;rdquo; manual&#xA;in the world of binary exploitation and vulnerabilty research, it covers the basics, the theory, like nothing&#xA;other source i saw online, although it may be a bit dry, but a little bit of persistence goes a long way,&#xA;anyways, lets start with what you actually learn.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

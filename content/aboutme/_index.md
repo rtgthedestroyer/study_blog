@@ -5,9 +5,7 @@ title = 'Aboutme'
 
 
 Nice to meet you !
-I am a Computer Science student with an interest in cybersecurity,
-Especially low-level security , i have practical knowledge in reverse-engineering,
-debuggers, vulnerabilities, and malware.
+I am a Computer Science student with an interest in computer systems, ai/ml , security and really just about anything.
 
 This is my personal blog where i will upload ctf solutions and other things that
 pique my interest.

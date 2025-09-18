@@ -1,6 +1,6 @@
-baseURL = 'https://rtgthedestroyer.github.io/pwn-blog/'
+baseURL = 'https://rtgthedestroyer.github.io/study_blog/'
 languageCode = 'en-us'
-title = 'pwn-blog'
+title = 'study_blog'
 theme = 'hugo-theme-terminal'
 [caches]
   [caches.images]
@@ -24,3 +24,8 @@ theme = 'hugo-theme-terminal'
 	name = 'Projects/CTFs'
 	pageRef = '/ctfs/'
 	weight = 3
+
+[[menu.main]]
+	name = 'Projects/Programming'
+	pageRef = '/programming'
+	weight = 4
