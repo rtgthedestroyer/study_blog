@@ -13,7 +13,7 @@ title = 'Beleaf Csaw19 Ctf'
 We begin with a basic executable we try to run it and see it asks for a code of somekind,
 i tried entering several inputs but to no avail , we need to dig deeper , 
 using bininja i located the main function we can see that it performs some kind of a check for the right input
-![mainfunc](/image/csawbeleaf-1.png)
+![mainfunc](/images/csawbeleaf-1.png)
 
 some constraints we see are that our input must be at least 0x20 and that it checks with some encoding function
 that performs some kind of actions lets dig in and find something interesting,
@@ -28,7 +28,7 @@ if the comparison is wrong, it puts out incorrect therefore it must be true, a c
 so , 1 - 9 - 11 - 27... you get the idea , how do we do that ?
 
 inside the encoding function we see that we recieve some kind of an index so.. in other words we have to match an index that gets returned from the encoding function to the tagert array, first number we need is 1 so index 1 needs to be returned from the index array which as we see here
-![idkfunc](/image/csawbeleaf-5.png)
+![idkfunc](/images/csawbeleaf-5.png)
 the first letter we need is 'f' since the target array requests 1 so our encoding function needs to return 1 which is the index where 'f' is.
 we continute and get flag...
 you do the rest !
