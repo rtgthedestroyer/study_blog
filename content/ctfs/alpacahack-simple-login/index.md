@@ -28,6 +28,8 @@ def login():
         f"SELECT * FROM users WHERE username = '{username}' AND password = '{password}'"
     )
 
+```
+
 we try to do a basic check for sqli
 and get that annoying emoji message.. 
 what do we do? we need to find a way to bypass the blacklist of "'"
