@@ -36,18 +36,16 @@
   pageRef = "programming"
   weight = 40
 
-
-
 [[main]]
-  identifier = "github-menu"
+  identifier = "github"
   name = "GitHub"
   url = "https://github.com/sigchill"
   weight = 50
-  params.icon = "github" # <--- This is the correct way (dotted key)
+  params = { icon = "github" }
 
 [[main]]
-  identifier = "twitter-menu"
+  identifier = "twitter"
   name = "Twitter"
   url = "https://twitter.com/_sigchill"
   weight = 60
-  params.icon = "twitter"
+  params = { icon = "twitter" }

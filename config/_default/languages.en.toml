@@ -14,16 +14,11 @@ weight = 1
 
   [params.author]
     name = "sigchill"
-    image = "my_avatar.jpeg" # Ensure this file is inside your 'assets/' folder!
-    headline = "AppSec Ethusiast & CTF Player"
+    image = "my_avatar.jpeg"
+    headline = "AppSec Enthusiast & CTF Player"
     bio = "Welcome to my study blog. Here I document my CTF writeups and security research."
-
-    [[params.author.links]]
-      name = "GitHub"
-      icon = "github"
-      url = "https://github.com/sigchill"
-
-    [[params.author.links]]
-      name = "Twitter"
-      icon = "twitter"
-      url = "https://twitter.com/_sigchill"
+    
+    links = [
+      { name = "GitHub", icon = "github", url = "https://github.com/sigchill" },
+      { name = "Twitter", icon = "twitter", url = "https://twitter.com/_sigchill" }
+    ]
