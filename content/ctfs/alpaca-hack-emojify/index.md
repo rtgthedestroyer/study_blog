@@ -8,7 +8,6 @@ title = 'Alpaca Hack Emojify'
 ### difficulty : medium
 ### url to challenge : https://alpacahack.com/daily/challenges/emojify
 
-``
 This is alapaca hack daily web ctf lets dive in and see whats going on
 
 ![img](img1.png)
