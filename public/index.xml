@@ -6,8 +6,15 @@
     <description>Recent content in Menu on study_blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Jun 2025 18:25:29 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 29 Nov 2025 20:58:52 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/study_blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beleaf Csaw19 Ctf</title>
+      <link>http://localhost:1313/study_blog/ctfs/beleaf-csaw19-ctf/</link>
+      <pubDate>Sat, 29 Nov 2025 20:58:52 +0200</pubDate>
+      <guid>http://localhost:1313/study_blog/ctfs/beleaf-csaw19-ctf/</guid>
+      <description>&lt;h1 id=&#34;beleaf-csaw-19-ctf&#34;&gt;Beleaf CSAW 19 ctf&lt;/h1&gt;&#xA;&lt;h2 id=&#34;category--crackmesre&#34;&gt;category : crackmes/RE&lt;/h2&gt;&#xA;&lt;h2 id=&#34;difficulty--beginners&#34;&gt;difficulty : beginners&lt;/h2&gt;&#xA;&lt;h2 id=&#34;url-to-challenge--httpsgithubcomosirislabcsaw-ctf-2019-qualstreemasterrevbeleaf&#34;&gt;url to challenge : &lt;a href=&#34;https://github.com/osirislab/CSAW-CTF-2019-Quals/tree/master/rev/beleaf&#34;&gt;https://github.com/osirislab/CSAW-CTF-2019-Quals/tree/master/rev/beleaf&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;how-i-solved-it-&#34;&gt;how i solved it :&lt;/h3&gt;&#xA;&lt;p&gt;We begin with a basic executable we try to run it and see it asks for a code of somekind,&#xA;i tried entering several inputs but to no avail , we need to dig deeper ,&#xA;using bininja i located the main function we can see that it performs some kind of a check for the right input&#xA;&lt;img src=&#34;http://localhost:1313/study_blog/images/csawbeleaf-1.png&#34; alt=&#34;mainfunc&#34;&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hacking - The Art Of Exploitation</title>
       <link>http://localhost:1313/study_blog/posts/review_htaose/</link>

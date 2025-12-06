@@ -1,4 +1,4 @@
-baseURL = 'https://rtgthedestroyer.github.io/study_blog/'
+baseURL = 'https://sigchill.github.io/study_blog/'
 languageCode = 'en-us'
 title = 'study_blog'
 theme = 'hugo-theme-terminal'
@@ -13,19 +13,20 @@ theme = 'hugo-theme-terminal'
 	pageRef = '/aboutme/'
 	weight = 1
 
-
 [[menu.main]]
-	name = 'Blog'
-	pageRef = '/posts/'
+	name = 'CTFs'
+	pageRef = '/ctfs/'
 	weight = 2
 
 
 [[menu.main]]
-	name = 'Projects/CTFs'
-	pageRef = '/ctfs/'
+	name = 'Blog'
+	pageRef = '/posts/'
 	weight = 3
 
+
+
 [[menu.main]]
-	name = 'Projects/Programming'
+	name = 'Programming'
 	pageRef = '/programming'
 	weight = 4

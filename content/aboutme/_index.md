@@ -5,9 +5,9 @@ title = 'Aboutme'
 
 
 Nice to meet you !
-I am a Computer Science student with an interest in computer systems, ai/ml , security and really just about anything.
+I am a Computer Science student with an interest in security and really just about anything.
 
 This is my personal blog where i will upload ctf solutions and other things that
 pique my interest.
 
-Hope you have a great time - rtg.
+Hope you have a great time 

@@ -1,1 +1,1 @@
-this is my personal study blog where i will share stuff related to ai/ml , low level and systems and math
+this is my personal study blog where i will share stuff related to security praticulary web/re/pwn 
