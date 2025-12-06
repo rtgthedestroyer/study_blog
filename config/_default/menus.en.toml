@@ -12,22 +12,32 @@
 
 # config/_default/menus.en.toml
 
-[[main]]
-  name = "whoami"
-  pageRef = "aboutme"
-  weight = 10
+# config/_default/languages.en.toml
 
-[[main]]
-  name = "CTFs"
-  pageRef = "ctfs"
-  weight = 20
+languageCode = "en-us"
+languageName = "English"
+weight = 1
 
-[[main]]
-  name = "Blog"
-  pageRef = "posts"
-  weight = 30
-
-[[main]]
-  name = "Programming"
-  pageRef = "programming" 
-  weight = 40
+[params]
+  displayName = "study_blog"          
+  description = "My journey into AppSec and CTFs" 
+  
+  # The "Hero" section (the big center area)
+  [params.homepage]
+    layout = "profile" 
+    showRecent = true  
+    name = "sigchill"       
+    image = "my_avatar.jpeg" 
+    headline = "AppSec Engineer & CTF Player" 
+    bio = "Welcome to my study blog. Here I document my CTF writeups and security research."
+    
+    # Your Social Links (The icons below the text)
+    [[params.author.links]]
+      name = "GitHub"
+      icon = "github"
+      url = "https://github.com/sigchill"
+    
+    [[params.author.links]]
+      name = "Twitter"
+      icon = "twitter"
+      url = "https://twitter.com/_sigchill"
