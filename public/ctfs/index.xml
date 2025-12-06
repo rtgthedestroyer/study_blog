@@ -1,19 +1,193 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ctfs on study_blog</title>
-    <link>http://localhost:1313/study_blog/ctfs/</link>
-    <description>Recent content in Ctfs on study_blog</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 29 Nov 2025 20:58:52 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/study_blog/ctfs/index.xml" rel="self" type="application/rss+xml" />
+    <title>Ctfs on Blowfish</title>
+    <link>http://localhost:1313/ctfs/</link>
+    <description>Recent content in Ctfs on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>nuno@n9o.xyz (Blowfish)</managingEditor>
+    <webMaster>nuno@n9o.xyz (Blowfish)</webMaster>
+    <copyright>© 2025 Blowfish</copyright>
+    <lastBuildDate>Wed, 03 Dec 2025 16:30:43 +0200</lastBuildDate><atom:link href="http://localhost:1313/ctfs/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Alpaca Hack Emojify</title>
+      <link>http://localhost:1313/ctfs/alpaca-hack-emojify/</link>
+      <pubDate>Wed, 03 Dec 2025 16:30:43 +0200</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1313/ctfs/alpaca-hack-emojify/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Alpaca Hack Emojify
+    &lt;div id=&#34;alpaca-hack-emojify&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#alpaca-hack-emojify&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;category : web
+    &lt;div id=&#34;category--web&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#category--web&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h3&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;difficulty : medium
+    &lt;div id=&#34;difficulty--medium&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#difficulty--medium&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h3&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;url to challenge : &lt;a
+  href=&#34;https://alpacahack.com/daily/challenges/emojify&#34;
+    target=&#34;_blank&#34;
+  &gt;https://alpacahack.com/daily/challenges/emojify&lt;/a&gt;
+    &lt;div id=&#34;url-to-challenge--httpsalpacahackcomdailychallengesemojify&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#url-to-challenge--httpsalpacahackcomdailychallengesemojify&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h3&gt;
+&lt;p&gt;This is alapaca hack daily web ctf lets dive in and see whats going on&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Alpacahack Simple Login</title>
+      <link>http://localhost:1313/ctfs/alpacahack-simple-login/</link>
+      <pubDate>Mon, 01 Dec 2025 20:30:23 +0200</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1313/ctfs/alpacahack-simple-login/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Alpacahack Simple Logic
+    &lt;div id=&#34;alpacahack-simple-logic&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#alpacahack-simple-logic&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;category : web
+    &lt;div id=&#34;category--web&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#category--web&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h3&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;difficulty : beginners
+    &lt;div id=&#34;difficulty--beginners&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#difficulty--beginners&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h3&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;url to ctf :https://alpacahack.com/challenges/simple-login
+    &lt;div id=&#34;url-to-ctf-httpsalpacahackcomchallengessimple-login&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#url-to-ctf-httpsalpacahackcomchallengessimple-login&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h3&gt;
+&lt;p&gt;We are provided with the source code &lt;code&gt;app.py&lt;/code&gt;. The application takes a username and password, checks them against a database, and logs the user in if the credentials match.&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>Beleaf Csaw19 Ctf</title>
-      <link>http://localhost:1313/study_blog/ctfs/beleaf-csaw19-ctf/</link>
+      <link>http://localhost:1313/ctfs/beleaf-csaw19-ctf/</link>
       <pubDate>Sat, 29 Nov 2025 20:58:52 +0200</pubDate>
-      <guid>http://localhost:1313/study_blog/ctfs/beleaf-csaw19-ctf/</guid>
-      <description>&lt;h1 id=&#34;beleaf-csaw-19-ctf&#34;&gt;Beleaf CSAW 19 ctf&lt;/h1&gt;&#xA;&lt;h2 id=&#34;category--crackmesre&#34;&gt;category : crackmes/RE&lt;/h2&gt;&#xA;&lt;h2 id=&#34;difficulty--beginners&#34;&gt;difficulty : beginners&lt;/h2&gt;&#xA;&lt;h2 id=&#34;url-to-challenge--httpsgithubcomosirislabcsaw-ctf-2019-qualstreemasterrevbeleaf&#34;&gt;url to challenge : &lt;a href=&#34;https://github.com/osirislab/CSAW-CTF-2019-Quals/tree/master/rev/beleaf&#34;&gt;https://github.com/osirislab/CSAW-CTF-2019-Quals/tree/master/rev/beleaf&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;how-i-solved-it-&#34;&gt;how i solved it :&lt;/h3&gt;&#xA;&lt;p&gt;We begin with a basic executable we try to run it and see it asks for a code of somekind,&#xA;i tried entering several inputs but to no avail , we need to dig deeper ,&#xA;using bininja i located the main function we can see that it performs some kind of a check for the right input&#xA;&lt;img src=&#34;http://localhost:1313/study_blog/images/csawbeleaf-1.png&#34; alt=&#34;mainfunc&#34;&gt;&lt;/p&gt;</description>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1313/ctfs/beleaf-csaw19-ctf/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Beleaf CSAW 19 ctf
+    &lt;div id=&#34;beleaf-csaw-19-ctf&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#beleaf-csaw-19-ctf&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;category : crackmes/RE
+    &lt;div id=&#34;category--crackmesre&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#category--crackmesre&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;difficulty : beginners
+    &lt;div id=&#34;difficulty--beginners&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#difficulty--beginners&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;url to challenge : &lt;a
+  href=&#34;https://github.com/osirislab/CSAW-CTF-2019-Quals/tree/master/rev/beleaf&#34;
+    target=&#34;_blank&#34;
+  &gt;https://github.com/osirislab/CSAW-CTF-2019-Quals/tree/master/rev/beleaf&lt;/a&gt;
+    &lt;div id=&#34;url-to-challenge--httpsgithubcomosirislabcsaw-ctf-2019-qualstreemasterrevbeleaf&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#url-to-challenge--httpsgithubcomosirislabcsaw-ctf-2019-qualstreemasterrevbeleaf&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;how i solved it :
+    &lt;div id=&#34;how-i-solved-it-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#how-i-solved-it-&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h3&gt;
+&lt;p&gt;We begin with a basic executable we try to run it and see it asks for a code of somekind,
+i tried entering several inputs but to no avail , we need to dig deeper ,
+using bininja i located the main function we can see that it performs some kind of a check for the right input
+&lt;figure&gt;&lt;img
+    class=&#34;my-0 rounded-md&#34;
+    loading=&#34;lazy&#34;
+    decoding=&#34;async&#34;
+    fetchpriority=&#34;auto&#34;
+    alt=&#34;mainfunc&#34;
+    width=&#34;2177&#34;
+    height=&#34;1307&#34;
+    src=&#34;http://localhost:1313/ctfs/beleaf-csaw19-ctf/csawbeleaf-1_hu_250af75116483c97.png&#34;
+    srcset=&#34;http://localhost:1313/ctfs/beleaf-csaw19-ctf/csawbeleaf-1_hu_250af75116483c97.png 800w, http://localhost:1313/ctfs/beleaf-csaw19-ctf/csawbeleaf-1_hu_3a9349232f6cf099.png 1280w&#34;
+    sizes=&#34;(min-width: 768px) 50vw, 65vw&#34;
+    data-zoom-src=&#34;http://localhost:1313/ctfs/beleaf-csaw19-ctf/csawbeleaf-1.png&#34;&gt;&lt;/figure&gt;
+&lt;/p&gt;</description>
+      
     </item>
+    
   </channel>
 </rss>

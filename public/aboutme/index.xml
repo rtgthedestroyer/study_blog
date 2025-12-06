@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aboutme on study_blog</title>
-    <link>http://localhost:1313/study_blog/aboutme/</link>
-    <description>Recent content in Aboutme on study_blog</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/study_blog/aboutme/index.xml" rel="self" type="application/rss+xml" />
+    <title>Aboutme on Blowfish</title>
+    <link>http://localhost:1313/aboutme/</link>
+    <description>Recent content in Aboutme on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>nuno@n9o.xyz (Blowfish)</managingEditor>
+    <webMaster>nuno@n9o.xyz (Blowfish)</webMaster>
+    <copyright>© 2025 Blowfish</copyright>
+    <lastBuildDate>Wed, 11 Jun 2025 13:09:28 +0300</lastBuildDate><atom:link href="http://localhost:1313/aboutme/index.xml" rel="self" type="application/rss+xml" />
+    
   </channel>
 </rss>

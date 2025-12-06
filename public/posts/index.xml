@@ -1,19 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on study_blog</title>
-    <link>http://localhost:1313/study_blog/posts/</link>
-    <description>Recent content in Blog on study_blog</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 14 Jun 2025 18:25:29 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/study_blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <title>Blog on Blowfish</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Blog on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>nuno@n9o.xyz (Blowfish)</managingEditor>
+    <webMaster>nuno@n9o.xyz (Blowfish)</webMaster>
+    <copyright>© 2025 Blowfish</copyright>
+    <lastBuildDate>Wed, 11 Jun 2025 13:41:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Hacking - The Art Of Exploitation</title>
-      <link>http://localhost:1313/study_blog/posts/review_htaose/</link>
+      <link>http://localhost:1313/posts/review_htaose/</link>
       <pubDate>Sat, 14 Jun 2025 18:25:29 +0300</pubDate>
-      <guid>http://localhost:1313/study_blog/posts/review_htaose/</guid>
-      <description>&lt;h1 id=&#34;the-art-of-exploitation---my-review&#34;&gt;The art of exploitation - my review&lt;/h1&gt;&#xA;&lt;p&gt;As a computer science student i always try different areas to see what sticks to me and makes me passionate&#xA;about it, this book is how it all started for me, it may be dated released over a decade ago,  but to me it felt like a &amp;ldquo;zero to hero&amp;rdquo; manual&#xA;in the world of binary exploitation and vulnerabilty research, it covers the basics, the theory, like nothing&#xA;other source i saw online, although it may be a bit dry, but a little bit of persistence goes a long way,&#xA;anyways, lets start with what you actually learn.&lt;/p&gt;</description>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1313/posts/review_htaose/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;The art of exploitation - my review
+    &lt;div id=&#34;the-art-of-exploitation---my-review&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#the-art-of-exploitation---my-review&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;p&gt;As a computer science student i always try different areas to see what sticks to me and makes me passionate
+about it, this book is how it all started for me, it may be dated released over a decade ago,  but to me it felt like a &amp;ldquo;zero to hero&amp;rdquo; manual
+in the world of binary exploitation and vulnerabilty research, it covers the basics, the theory, like nothing
+other source i saw online, although it may be a bit dry, but a little bit of persistence goes a long way,
+anyways, lets start with what you actually learn.&lt;/p&gt;</description>
+      
     </item>
+    
   </channel>
 </rss>

@@ -1,7 +1,7 @@
 baseURL = 'https://sigchill.github.io/study_blog/'
 languageCode = 'en-us'
 title = 'study_blog'
-theme = 'hugo-theme-terminal'
+theme = 'blowfish'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
