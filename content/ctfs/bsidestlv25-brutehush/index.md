@@ -30,7 +30,6 @@ i use this python scrip:
 from pwn import *
 import string
 
-# Connect to the challenge
 r = remote('0.cloud.chals.io', 10188)
 
 r.recvuntil(b"Enter password: ")
@@ -43,27 +42,23 @@ while True:
     for char in string.printable:
         if char == '\n': continue
 
-        # Send guess
         attempt = password + char
         r.sendline(attempt.encode())
 
-        # Read response
+        
         response = r.recvline().decode()
 
-        # Case 1: Character is correct (keep going)
         if "Hmm..." in response:
             password += char
             print(f"Found: {password}")
-            r.recvuntil(b"Enter password: ") # Clear prompt for next loop
+            r.recvuntil(b"Enter password: ") 
             break
         
-        # Case 2: We won
         elif "Wait" in response:
             print(f"PASSWORD: {attempt}")
-            print(r.recvall().decode()) # Get the flag
+            print(r.recvall().decode()) 
             exit()
-        
-        # Case 3: Wrong character (loop continues)
+       
         else:
             r.recvuntil(b"Enter password: ")
 
