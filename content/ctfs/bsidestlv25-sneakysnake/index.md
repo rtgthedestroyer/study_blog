@@ -93,25 +93,25 @@ how do we know what are the characters of the flag are?
     int nTail = 0, score = 0, gameOver = 0, is_win = 0;
     enum Direction { STOP=0, LEFT, RIGHT, UP, DOWN } dir = STOP;
 ```
-    right in this step we can see how each position is calculated
-    we focus on the variables where *ptr is used,
-    fruitX is *ptr%width which is 40
-    fruitY is (*ptr/40)%height which is 20 so (*ptr/40)%20
-    a byte is 0-255 so the maximum value of fruitY is 255/40 = 6
-    and 6%20 is just 6 so fruitY is just [0,6]
+right in this step we can see how each position is calculated
+we focus on the variables where *ptr is used,
+fruitX is *ptr%width which is 40
+fruitY is (*ptr/40)%height which is 20 so (*ptr/40)%20
+a byte is 0-255 so the maximum value of fruitY is 255/40 = 6
+and 6%20 is just 6 so fruitY is just [0,6]
 
-    first 32 points we dont need to decodeanything just eat the fruits,
-    after that we need to somehow reverse it so we can know what letter we get, 
-    for example 'f' in the flag buffer
-    its ASCII value is 102
-    so,
-    fruitX = 102%40 =22
-    fruitY =(102/40)%20 = 2%20 = 2
+first 32 points we dont need to decodeanything just eat the fruits,
+after that we need to somehow reverse it so we can know what letter we get, 
+for example 'f' in the flag buffer
+its ASCII value is 102
+so,
+fruitX = 102%40 =22
+fruitY =(102/40)%20 = 2%20 = 2
     
     row : 2 col : 22 (x=22,y=2) 
     2*40=80 -> +22 = 102 we get 'f'
 
-    using this script we can autoamte this process:
+using this script we can autoamte this process:
 
 ```python
 from pwn import *
