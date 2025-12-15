@@ -11,3 +11,9 @@ This is my personal blog where i will upload ctf solutions and other things that
 pique my interest.
 
 Hope you have a great time 
+
+
+contact me: 
+
+[My GitHub](https://github.com/sigchill)
+[My Twitter](https://x.com/_sigchill)
