@@ -3,7 +3,7 @@ date = '2025-12-13T23:29:13+02:00'
 draft = false
 title = 'Bof'
 +++
-# Bof
+# pwnable.kr - Bof
 
 this pwnable seems a lil straightforward 
 i expect a buffer overflow basicaly

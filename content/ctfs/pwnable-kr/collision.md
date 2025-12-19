@@ -3,7 +3,7 @@ date = '2025-12-13T22:56:24+02:00'
 draft = false
 title = 'Collision'
 +++
-### Coliision
+### pwnable.kr - Coliision
 the 2nd challenge in toddler's bottle
 as the description says the hint is about md5 collisions lets seew what we have:
 ### source code analysis:

@@ -3,7 +3,7 @@ date = '2025-12-17T15:56:57+02:00'
 draft = false
 title = 'Leg'
 +++
-# Leg
+# pwnable.kr - Leg
 
 "Daddy told me I should study ARM architecture.
 But I know Intel architecture and it should be similar.
