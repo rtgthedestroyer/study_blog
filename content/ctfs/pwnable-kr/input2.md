@@ -4,7 +4,7 @@ draft = false
 title = 'Input2'
 +++
 
-# Input2 
+# pwnable.kr - Input2 
 
 Let's begin by running the program
 seem's like we cant get an input directly to the program 
